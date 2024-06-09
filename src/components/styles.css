@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator-box {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.calculator-box div {
+  margin-bottom: 10px;
+}
+
+.calculator-box label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.calculator-box input,
+.calculator-box select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculator-box button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: black;
+  cursor: pointer;
+}
+
+.calculator-box button:hover {
+  background-color: #0056b3;
+}
+
+.unit-switch {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.unit-switch button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.unit-switch button.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #0056b3;
+}
+
+.calculator-container {
+  display: flex;
+}
+
+.calculator-box {
+  flex: 1;
+}
+
+.activity-table-container {
+  flex: 1;
+}
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activity-table th,
+.activity-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.activity-table th {
+  background-color: #ffffff;
+}
+
+.activity-table-container {
+  display: flex;
+  justify-content: flex-end; /* Align the activity table to the right */
+}
+
+
